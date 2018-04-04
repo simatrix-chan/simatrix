@@ -1,5 +1,3 @@
-const Discord = require("discord.js");
-const client = new discord.Client();
 import discord
 import random
 import requests
@@ -169,4 +167,4 @@ client.loop.create_task(tutorial_uptime())
 
 
 
-client.login(process.env.BOT_TOKEN);
+client.run('process.env.BOT_TOKEN')
