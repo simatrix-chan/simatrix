@@ -1,14 +1,7 @@
-import discord
-import random
-import requests
-import asyncio
-import io
-import safygiphy
-from discord.ext import commands
-from discord.ext.commands import Bot
-import time
+const Discord = require("discord.js");
 
-client = discord.Client()
+
+const client = new discord.Client();
 g = safygiphy.Giphy()
 DEIN_NAME = "DEINE_USER_ID"
 
