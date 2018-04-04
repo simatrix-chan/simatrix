@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new discord.Client();
 
+
 @client.event
 async def on_ready():
     print('Pregatim comenzile')
