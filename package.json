@@ -3,12 +3,11 @@
   "description": "Test",
   "version": "0.0.0",
   "main": "bot.js",
-  "script": {
+  "scripts": {
    "start": "node bot.js"
-   },
-   "dependencies": {
-   "discord.js": "11.1.0",
-   "requests" "2.81.0"
- 
-   }
+  },
+  "dependencies": {
+  "discord.js": "11.1.0",
+  "request" "2.81.0"
+  }
 }
